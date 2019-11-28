@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F004</title>
+    <link rel=" stylesheet" href="../static/css/F004.css" type="text/css">
+</head>
+<body>
+<table class='head'>
+    <tr>
+        <td id='logo'>
+        </td>
+        </th>
+        <th class="head_font_color" id='head_jxsb'>
+            奖项申报
+        </th>
+        <th class="head_font_color" id='head_xtgl'>
+            系统管理
+        </th>
+        <th class="head_font_color" id='head_grzx'>
+            个人中心
+        </th>
+        <th class="head_font_color" id='head_person'>
+            <image src="../static/img/person.jpg" id='person_pic'>
+                298503
+            </image>
+        </th>
+
+    </tr>
+</table>
+</br>
+
+<div class='daohang_div'>
+    <ul class="daohang_ul">组织管理</ul>
+    <ul class="daohang_ul">奖项信息</ul>
+</div>
+<!--上右下左-->
+<div style="float: left;margin: 0% 5% 0 0">
+
+    <p style="color: #4eb3df">
+        系统管理>新增奖项
+    </p>
+
+    <hr>
+    <br><br><br>
+
+
+<form onsubmit="return false">
+    <table>
+        <tr>
+            <td >奖项名称</td>
+            <td ><input type="text" name="" style=" width: 1000px ;height: 26px"></td>
+        </tr>
+        <tr>
+            <td >评奖条件</td>
+            <td ><textarea style="width: 1000px;height: 300px" name="content" ></textarea></td>
+        </tr>
+        <tr>
+            <td>奖项级别</td>
+            <td >
+                <select name=""style="width: 1000px;height: 26px;">
+                    <option>部门级</option>
+                    <option>部门级</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td >所属组织</td>
+            <td ><input type="text" name="" style="width: 1000px;height: 26px;"></td>
+        </tr>
+        <tr>
+            <td >开始日期</td>
+            <td ><input type="text" name="" style="width: 1000px;height: 26px;"></td>
+        </tr>
+        <tr>
+            <td >结束日期</td>
+            <td ><input type="text" name="" style="width: 1000px;height: 26px;"></td>
+        </tr>
+        <tr>
+            <td >上传附件</td>
+            <td ><input type="file" name=""></td>
+        </tr>
+        <tr>
+            <td >状态</td>
+            <td >
+                <input style="width: 5%" type="radio" value="on" checked="checked">生效
+                <input style="width: 5%"  type="radio" value="off">过期
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <button type="reset" style="float: right;margin-left: 2%;border-radius: 7px" id="cancel">取消</button>
+    <button type="submit" style="float: right;background-color: #169bd5 ;border-radius: 7px" id="sub">确定</button>
+</form>
+</body>
+</html>

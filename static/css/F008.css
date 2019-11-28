@@ -1,0 +1,106 @@
+.head {
+    width: 100%;
+    background-color: #293e59;
+}
+
+#logo {
+    background: url("../img/logo.jpg");
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.head_font_color {
+    color: white;
+    font-size: 15px;
+}
+
+#head_jxsb {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+#head_person {
+    width: 200px;
+    height: 20px;
+}
+
+#head_grzx {
+    width: 200px;
+    height: 20px;
+}
+
+#head_xtgl {
+    text-align: right;
+}
+
+#person_pic {
+    border-top: 5px;
+    border-bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+.head_button {
+    background-color: #159ad4;
+    color: white;
+    height: 30px;
+    width: auto;
+
+    border-radius: 7px;
+
+
+}
+
+.daohang_div {
+
+    width: 300px;
+    height: 120px;
+    float: left;
+
+}
+
+.daohang_ul {
+    line-height: 50px;
+    width: 130px;
+    height: 50px;
+    background-color: #293e59;
+    border: 1px solid  #293e59;
+    color:  white;
+
+    text-align: center;
+}
+
+#head_select {
+    width: 80px;
+    height: 30px;
+    text-align: right;
+}
+
+#body_table {
+
+    width: auto;
+    height: auto;
+}
+
+
+
+#body_table th {
+    padding: 0 30px 0 50px;
+    text-align: center;
+
+    height: 50px;
+}
+
+#body_table tr {
+    padding: 0 0 0 80px;
+    text-align: center;
+    height: 50px;
+}
